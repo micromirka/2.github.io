@@ -1,0 +1,198 @@
+@font-face {
+    font-family: Poiret;
+    src: url(ofont.ru_Poiret\ One.ttf);
+}
+
+html{
+    overflow-x: hidden;
+}
+
+body {
+    overflow-x: hidden;
+    font-family: Poiret;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #554949;
+}
+
+p{
+    font-size: 40px;
+    margin-top: 40px;
+}
+
+@media (max-width: 1199px) {
+
+    .container {
+        width: 83%;
+    }
+    header {
+        justify-content: space-around;
+    }
+    .content-block {
+        justify-content: space-evenly;
+    }
+
+    .client img{
+        width: 200px;
+        height: 200px;
+    }
+    .clients-box{
+        display: contents;
+    }
+    .client span{
+        font-size: 45px;
+    }
+    .client{
+        display: inline-block;
+        width: 70%;
+        max-width: 300px;
+        height: 330px;
+    }
+    .usluga div p{
+        font-size: 26px;
+    }
+    .usluga{
+        padding-top: 100px;
+        height: 590px;
+    }
+    nav a {
+        font-size: 26px;
+    }
+    .banner button{
+        margin-top: 30px;
+    }
+    .nasha{
+        font-size: 30px;
+    }
+    .nasha span{
+        font-size: 38px;
+    }
+    .anket button{
+        width: 320px;
+    }
+}
+
+@media (max-width: 991px) {
+    .usluga{
+        padding-top: 100px;
+        height: 400px;
+    }
+    .usluga div p{
+        font-size: 18px;
+    }
+    .usluga div p span{
+        font-size: 28px;
+    }
+    nav a {
+        font-size: 24px;
+        margin-left: 1%;
+    }
+    .zay span{
+        font-size: 70px;
+    }
+    .anket button{
+        width: 230px;
+        font-size: 32px;
+    }
+    input{
+        font-size: 26px;
+    }
+}
+@media (max-width: 845px) {
+    .usluga{
+        display: inline-block;
+        width: 95%;
+        height: 700px;
+        padding-top: 200px;
+    }
+    .uslugi-box{
+        display: contents;
+    }
+    .usluga div{
+        box-sizing: border-box;
+        height: 100%;
+    }
+    .usluga div p span{
+        font-size: 47px;
+    }
+    .usluga div p{
+        font-size: 32px;
+    }
+    .uslugi button{
+        width: 500px;
+        font-size: 44px;
+    }
+    nav a {
+        font-size: 20px;
+    }
+    .banner button{
+        margin-top: 0px;
+    }
+    .banner p{
+        margin-top: 10px;
+    }
+    .banner span{
+        font-size: 110px;
+        margin-top: 15px;
+    }
+    .pred{
+        font-size: 24px;
+    }
+}
+@media (max-width: 630px) {
+    .usluga div p span{
+        font-size: 34px;
+    }
+    .usluga div p{
+        font-size: 22px;
+    }
+    .usluga{
+        height: 550px;
+    }
+    .uslugi button{
+        width: 400px;
+        font-size: 40px;
+    }
+    .logo{
+        font-size: 50px;
+    }
+    nav a {
+        font-size: 16px;
+    }
+    .chto{
+        font-size: 48px;
+    }
+    .chto p{
+        font-size: 28px;
+    }
+}
+@media (max-width: 480px) {
+    .usluga div p{
+        font-size: 15px;
+    }
+    .usluga div p span{
+        font-size: 23px;
+    }
+    .usluga{
+        height: 430px;
+    }
+    .uslugi button{
+        width: 300px;
+        font-size: 36px;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    nav a {
+        font-size: 12px;
+    }
+    .banner h1{
+        font-size: 40px;
+    }
+    .client span{
+        font-family: 35px;
+    }
+}

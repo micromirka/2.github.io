@@ -1,0 +1,22 @@
+.nasha {
+  text-align: center;
+  color: #554949;
+  font-size: 40px;
+  width: 85%;
+  margin: 80px auto 50px auto;
+  font-weight: 400;
+  line-height: normal;
+  overflow-wrap: normal;
+}
+
+.nasha span {
+  color: #382F2F;
+  font-size: 48px;
+}
+
+.chto {
+  color: #382F2F;
+  font-size: 64px;
+  text-align: center;
+  margin-top: 60px;
+}/*# sourceMappingURL=nasha.css.map */

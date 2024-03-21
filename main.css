@@ -1,0 +1,477 @@
+@font-face {
+  font-family: Poiret;
+  src: url(font/ofont.ru_Poiret\ One.ttf);
+}
+html {
+  overflow-x: hidden;
+}
+
+body {
+  overflow-x: hidden;
+  font-family: Poiret;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: #554949;
+}
+
+p {
+  font-size: 40px;
+  margin-top: 40px;
+}
+.banner {
+  background-image: url(images/girl4.png);
+  background-color: #CFB4B3;
+  height: 560px;
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  padding: 33px 0 0 33px;
+}
+
+.banner h1 {
+  color: #F6F6F6;
+  font-size: 52px;
+  font-weight: 400;
+  margin: 0;
+}
+
+.banner span {
+  color: #F6F6F6;
+  font-size: 128px;
+  margin-top: 30px;
+  display: block;
+}
+
+.banner p {
+  color: #F6F6F6;
+  font-size: 36px;
+  margin-top: 50px;
+}
+
+.banner button {
+  width: 280px;
+  height: 85px;
+  background-color: #F9F7F7;
+  border-radius: 55px;
+  border: none;
+  color: #554949;
+  font-family: Poiret;
+  font-size: 36px;
+  margin-left: 60px;
+  margin-top: 82px;
+}
+
+.client div {
+  color: #F0E7E4;
+}
+
+.clients-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.clients p {
+  color: #382F2F;
+  font-size: 64px;
+}
+
+.client {
+  border-radius: 35px;
+  background: #F0E7E4;
+  display: flex;
+  flex-direction: column;
+  width: 23%;
+  padding: 18px;
+  box-sizing: border-box;
+}
+
+.client span {
+  color: #554949;
+  text-align: center;
+  font-size: 48px;
+  display: block;
+}
+
+.client img {
+  width: 250px;
+  height: 250px;
+  border-radius: 640px;
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.form {
+  background-image: url(images/form.png);
+  height: 812px;
+  margin-top: 60px;
+}
+
+.pred {
+  color: #FFF;
+  margin-left: 39%;
+  font-size: 32px;
+  width: 60%;
+  text-align: right;
+  padding-top: 1%;
+}
+
+.zay {
+  display: flex;
+}
+
+.zay span {
+  display: block;
+  color: #FFF;
+  font-family: Poiret;
+  font-size: 96px;
+  margin-top: 150px;
+  margin-left: 15px;
+}
+
+.zay span p {
+  font-size: 38px;
+  margin-top: 14px;
+}
+
+input {
+  background-color: #F0E7E4;
+  border-radius: 55px;
+  border: none;
+  color: #948686;
+  width: 90%;
+  height: 72px;
+  font-size: 32px;
+  font-family: Poiret;
+  margin: 52px auto 0 auto;
+  padding-left: 25px;
+  display: flex;
+  align-self: center;
+}
+
+.anket {
+  background-color: rgba(245, 245, 245, 0.5215686275);
+  -webkit-backdrop-filter: blur(20px);
+          backdrop-filter: blur(20px);
+  border-radius: 40px;
+  height: 646px;
+  width: 40%;
+  margin-left: 2%;
+}
+
+.anket button {
+  background-color: 554949;
+  border: none;
+  border-radius: 55px;
+  color: #F0E7E4;
+  background-color: #554949;
+  width: 472px;
+  height: 88px;
+  font-size: 48px;
+  font-family: Poiret;
+  display: flex;
+  align-self: center;
+  margin: 120px auto auto auto;
+  text-align: center;
+  display: block;
+}
+
+header {
+  background-color: rgba(218, 176, 176, 0.3568627451);
+  height: 98px;
+}
+
+.menu {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 64px;
+  width: 55%;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 45%;
+}
+
+nav a {
+  text-align: center;
+  font-size: 32px;
+}
+
+.nasha {
+  text-align: center;
+  color: #554949;
+  font-size: 40px;
+  width: 85%;
+  margin: 80px auto 50px auto;
+  font-weight: 400;
+  line-height: normal;
+  overflow-wrap: normal;
+}
+
+.nasha span {
+  color: #382F2F;
+  font-size: 48px;
+}
+
+.chto {
+  color: #382F2F;
+  font-size: 64px;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.usluga div p span {
+  color: #382F2F;
+  font-size: 48px;
+  margin-bottom: 5px;
+  display: block;
+}
+
+.usluga div p {
+  color: #382F2F;
+  text-align: center;
+  font-size: 33px;
+  display: block;
+  margin: 0;
+}
+
+.usluga {
+  background-repeat: no-repeat;
+  width: 48%;
+  height: 860px;
+  border-radius: 50px;
+  background-size: 110%;
+  display: flex;
+  padding-top: 365px;
+  box-sizing: border-box;
+  margin-bottom: 50px;
+}
+
+.usluga div {
+  box-sizing: border-box;
+  padding: 0px 31px 0px 31px;
+  background-color: rgba(244, 237, 237, 0.65);
+  -webkit-backdrop-filter: blur(5px);
+          backdrop-filter: blur(5px);
+  border-radius: 50px;
+}
+
+.usluga:nth-of-type(1) {
+  background-image: url(images/beautiful-keratin-treated-hair_23-2149332492.jpg);
+}
+
+.usluga:nth-of-type(2) {
+  background-image: url(images/close-up-manicurist-using-nail-polish.jpg);
+}
+
+.usluga:nth-of-type(3) {
+  background-image: url(images/woman-receiving-a-beauty-treatment-for-skin-care.jpg);
+}
+
+.usluga:nth-of-type(4) {
+  background-image: url(images/young-beautiful-woman-using-cream-on-her-legs.jpg);
+}
+
+.uslugi button {
+  width: 740px;
+  height: 100px;
+  flex-shrink: 0;
+  border-radius: 55px;
+  background: #DCC1C1;
+  font-family: Poiret;
+  font-size: 48px;
+  color: #554949;
+  margin: 0 auto;
+  display: block;
+  border: none;
+}
+
+.uslugi-box {
+  margin-top: 45px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-self: center;
+}
+  @media (max-width: 1199px) {
+    .container {
+      width: 83%;
+    }
+    header {
+      justify-content: space-around;
+    }
+    .content-block {
+      justify-content: space-evenly;
+    }
+    .client img {
+      width: 200px;
+      height: 200px;
+    }
+    .clients-box {
+      display: contents;
+    }
+    .client span {
+      font-size: 45px;
+    }
+    .client {
+      display: inline-block;
+      width: 70%;
+      max-width: 300px;
+      height: 330px;
+    }
+    .usluga div p {
+      font-size: 26px;
+    }
+    .usluga {
+      padding-top: 100px;
+      height: 590px;
+    }
+    nav a {
+      font-size: 26px;
+    }
+    .banner button {
+      margin-top: 30px;
+    }
+    .nasha {
+      font-size: 30px;
+    }
+    .nasha span {
+      font-size: 38px;
+    }
+    .anket button {
+      width: 320px;
+    }
+  }
+  @media (max-width: 991px) {
+    .usluga {
+      padding-top: 100px;
+      height: 400px;
+    }
+    .usluga div p {
+      font-size: 18px;
+    }
+    .usluga div p span {
+      font-size: 28px;
+    }
+    nav a {
+      font-size: 24px;
+      margin-left: 1%;
+    }
+    .zay span {
+      font-size: 70px;
+    }
+    .anket button {
+      width: 230px;
+      font-size: 32px;
+    }
+    input {
+      font-size: 26px;
+    }
+  }
+  @media (max-width: 845px) {
+    .usluga {
+      display: inline-block;
+      width: 95%;
+      height: 700px;
+      padding-top: 200px;
+    }
+    .uslugi-box {
+      display: contents;
+    }
+    .usluga div {
+      box-sizing: border-box;
+      height: 100%;
+    }
+    .usluga div p span {
+      font-size: 47px;
+    }
+    .usluga div p {
+      font-size: 32px;
+    }
+    .uslugi button {
+      width: 500px;
+      font-size: 44px;
+    }
+    nav a {
+      font-size: 20px;
+    }
+    .banner button {
+      margin-top: 0px;
+    }
+    .banner p {
+      margin-top: 10px;
+    }
+    .banner span {
+      font-size: 110px;
+      margin-top: 15px;
+    }
+    .pred {
+      font-size: 24px;
+    }
+  }
+  @media (max-width: 630px) {
+    .usluga div p span {
+      font-size: 34px;
+    }
+    .usluga div p {
+      font-size: 22px;
+    }
+    .usluga {
+      height: 550px;
+    }
+    .uslugi button {
+      width: 400px;
+      font-size: 40px;
+    }
+    .logo {
+      font-size: 50px;
+    }
+    nav a {
+      font-size: 16px;
+    }
+    .chto {
+      font-size: 48px;
+    }
+    .chto p {
+      font-size: 28px;
+    }
+  }
+  @media (max-width: 480px) {
+    .usluga div p {
+      font-size: 15px;
+    }
+    .usluga div p span {
+      font-size: 23px;
+    }
+    .usluga {
+      height: 430px;
+    }
+    .uslugi button {
+      width: 300px;
+      font-size: 36px;
+    }
+    .logo {
+      font-size: 30px;
+    }
+    nav a {
+      font-size: 12px;
+    }
+    .banner h1 {
+      font-size: 40px;
+    }
+    .client span {
+      font-family: 35px;
+    }
+}/*# sourceMappingURL=style.css.map */

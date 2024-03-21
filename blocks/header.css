@@ -1,0 +1,28 @@
+header {
+  background-color: rgba(218, 176, 176, 0.3568627451);
+  height: 98px;
+}
+
+.menu {
+  display: flex;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.logo {
+  font-size: 64px;
+  width: 55%;
+  cursor: pointer;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 45%;
+}
+
+nav a {
+  text-align: center;
+  font-size: 32px;
+}/*# sourceMappingURL=header.css.map */

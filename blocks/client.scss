@@ -1,0 +1,38 @@
+.client div{
+    color: #F0E7E4;
+}
+
+.clients-box{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.clients p{
+    color: #382F2F;
+    font-size: 64px;
+}
+.client{
+    border-radius: 35px;
+    background: #F0E7E4;
+    display: flex;
+    flex-direction: column;
+    width: 23%;
+    padding: 18px;
+    box-sizing: border-box;
+    
+}
+.client span{
+    @include text();
+    font-size: 48px;
+    display: block;
+}
+
+.client img{
+    width: 250px;
+    height: 250px;
+    border-radius: 640px;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}

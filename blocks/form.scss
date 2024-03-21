@@ -1,0 +1,64 @@
+.form{
+    background-image: url(form.png);
+    height: 812px;
+    margin-top: 60px;
+}
+.pred{
+    color: #FFF;
+    margin-left: 39%;
+    font-size: 32px;
+    width: 60%;
+    text-align: right;
+    padding-top: 1%;
+}
+.zay{
+    display: flex;
+}
+.zay span{
+    display: block;
+    color: #FFF;
+    font-family: Poiret;
+    font-size: 96px;
+    margin-top: 150px;
+    margin-left: 15px; 
+}
+.zay span p{
+    font-size: 38px;
+    margin-top: 14px;
+}
+input{
+    background-color: #F0E7E4;
+    border-radius: 55px;
+    border: none;
+    color: #948686;
+    width: 90%;
+    height: 72px;
+    font-size: 32px;
+    font-family: Poiret;
+    margin: 52px auto 0 auto;
+    padding-left: 25px;
+    display: flex;
+    align-self: center;
+}
+.anket{
+    background-color: #f5f5f585;
+    backdrop-filter: blur(20px);
+    border-radius: 40px;
+    height: 646px;
+    width: 40%;
+    margin-left: 2%;
+}
+
+.anket button{
+    background-color: 554949;
+    border: none;
+    color: #F0E7E4;
+    background-color: #554949;
+    width: 472px;
+    height: 88px;
+    display: flex;
+    align-self: center;
+    margin: 120px auto auto auto;
+    text-align: center;
+    display: block;
+}
